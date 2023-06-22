@@ -46,10 +46,10 @@ Source: "C:\Users\tamir\source\repos\RandomFacts\RandomFacts\bin\Release\net6.0-
 [Icons]
 Name: "{group}\{cm:ProgramOnTheWeb,{#MyAppName}}"; Filename: "{#MyAppURL}"
 Name: "{group}\{cm:UninstallProgram,{#MyAppName}}"; Filename: "{uninstallexe}"
-Name: "{commondesktop}\Cracker95"; Filename: "{app}\Cracker95.exe";
-Name: "{commondesktop}\scamazon"; Filename: "{app}\scamazon.exe";
-Name: "{commondesktop}\OggyApp"; Filename: "{app}\Oggy Pics Desktop.exe";
-Name: "{commondesktop}\FactGenerator"; Filename: "{app}\RandomFacts.exe";
+Name: "{autodesktop}\Cracker95"; Filename: "{app}\Cracker95.exe";
+Name: "{autodesktop}\scamazon"; Filename: "{app}\scamazon.exe";
+Name: "{autodesktop}\OggyApp"; Filename: "{app}\Oggy Pics Desktop.exe";
+Name: "{autodesktop}\FactGenerator"; Filename: "{app}\RandomFacts.exe";
 Name: "{group}\Cracker95"; Filename: "{app}\Cracker95.exe";
 Name: "{group}\scamazon"; Filename: "{app}\scamazon.exe";
 Name: "{group}\OggyApp"; Filename: "{app}\Oggy Pics Desktop.exe";
