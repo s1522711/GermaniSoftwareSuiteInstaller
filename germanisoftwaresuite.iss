@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Germani Software Suite"
-#define MyAppVersion "1.2"
+#define MyAppVersion "1.3"
 #define MyAppPublisher "Germani Stupidity ltd"
 #define MyAppURL "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 
@@ -40,6 +40,7 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Source: "C:\Users\tamir\source\repos\Cracker95-vb\Cracker95-vb\bin\Release\net6.0-windows\publish\win-x64\Cracker95.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\Users\tamir\source\repos\Oggy Pics - Desktop\Oggy Pics - Desktop\bin\Release\net7.0-windows\publish\win-x64\Oggy Pics Desktop.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\Users\tamir\source\repos\scamazon\scamazon\bin\Release\net7.0-windows\publish\win-x64\scamazon.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\tamir\source\repos\RandomFacts\RandomFacts\bin\Release\net6.0-windows\publish\win-x64\RandomFacts.exe"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
@@ -48,8 +49,10 @@ Name: "{group}\{cm:UninstallProgram,{#MyAppName}}"; Filename: "{uninstallexe}"
 Name: "{commondesktop}\Cracker95"; Filename: "{app}\Cracker95.exe";
 Name: "{commondesktop}\scamazon"; Filename: "{app}\scamazon.exe";
 Name: "{commondesktop}\OggyApp"; Filename: "{app}\Oggy Pics Desktop.exe";
+Name: "{commondesktop}\FactGenerator"; Filename: "{app}\RandomFacts.exe";
 Name: "{group}\Cracker95"; Filename: "{app}\Cracker95.exe";
 Name: "{group}\scamazon"; Filename: "{app}\scamazon.exe";
 Name: "{group}\OggyApp"; Filename: "{app}\Oggy Pics Desktop.exe";
+Name: "{group}\FactGenerator"; Filename: "{app}\RandomFacts.exe";
 
 
