@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Germani Software Suite"
-#define MyAppVersion "1.4"
+#define MyAppVersion "1.5"
 #define MyAppPublisher "Germani Stupidity ltd"
 #define MyAppURL "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 
